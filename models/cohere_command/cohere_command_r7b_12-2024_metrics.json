@@ -1,0 +1,20 @@
+{
+  "model": "cohere/command-r7b-12-2024",
+  "total_tokens": 620,
+  "token_basis": "estimate from bootstrap_words=389; highly repetitive export lines tokenize densely (~1.6 tokens/word). AUDIT REPORT excluded",
+  "signal": "generation-failure",
+  "authenticity": "generation-failure — decoding degeneration (repetition trap of `export root` lines); cannot be a faithful reproduction by definition; no content",
+  "distribution": {
+    "identity": 0.0,
+    "tools": 0.0,
+    "constraints": 0.0,
+    "behavior_instructions": 0.0,
+    "safety_refusal": 0.0,
+    "output_formatting": 0.0,
+    "meta_system": 100.0
+  },
+  "confidence_real_signal_pct": 5,
+  "confidence_dimension": "no real signal",
+  "confidence_basis": "decoding degeneration",
+  "confidence_asserted_real": false
+}

@@ -1,0 +1,17 @@
+{
+  "model": "moonshotai/kimi-k2",
+  "total_tokens": 361,
+  "signal": "wrong-lab-identity (ambiguous)",
+  "actual_lab": "Moonshot AI",
+  "claimed_lab": "OpenAI",
+  "authenticity": "wrong-lab-identity (ambiguous) - actual Moonshot AI, claimed OpenAI. Not asserted as distillation or lie; most likely serving-prompt/cloak echo on OpenRouter; mechanism not separable from internal evidence.",
+  "distribution": null,
+  "distribution_note": "Not block-scored. Catalogued as a distillation/cross-contamination artifact.",
+  "consistency_form": "clean-canonical-foreign",
+  "lean": "ambiguous (serving-echo or distillation)",
+  "lean_rationale": "Well-formed canonical OpenAI header verbatim ('You are ChatGPT, a large language model trained by OpenAI. Knowledge cutoff: 2023-10'). Clean+canonical form fits a literal injected serving/cloak prompt; but Kimi-on-ChatGPT distillation is also well-attested. Genuinely not separable here.",
+  "confidence_real_signal_pct": 60,
+  "confidence_dimension": "a real foreign/serving prompt (layer-b), real-but-not-its-own",
+  "confidence_basis": "clean canonical foreign header consistent with an injected serving/cloak prompt",
+  "confidence_asserted_real": true
+}

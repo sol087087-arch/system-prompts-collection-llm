@@ -1,0 +1,17 @@
+{
+  "model": "z-ai/glm-5-turbo",
+  "total_tokens": 2212,
+  "signal": "wrong-lab-identity (ambiguous)",
+  "actual_lab": "Z.ai",
+  "claimed_lab": "OpenAI",
+  "authenticity": "wrong-lab-identity (ambiguous) - actual Z.ai, claimed OpenAI. Not asserted as distillation or lie; most likely serving-prompt/cloak echo on OpenRouter; mechanism not separable from internal evidence.",
+  "distribution": null,
+  "distribution_note": "Distillation/cross-contamination artifact.",
+  "consistency_form": "blended",
+  "lean": "distillation-leaning",
+  "lean_rationale": "Hybrid identity: calls itself 'ChatGPT' but credits 'trained by Z.ai' in one breath. A clean serving/cloak echo would be internally consistent OpenAI text; a Frankenstein 'ChatGPT...by Z.ai' is the weights failing to keep a borrowed self-identification consistent => strongest ChatGPT-distillation tell in the set.",
+  "confidence_real_signal_pct": 55,
+  "confidence_dimension": "a real distillation/lineage artifact (not a real prompt)",
+  "confidence_basis": "blended/embedded foreign identity = weights leaking a teacher",
+  "confidence_asserted_real": true
+}

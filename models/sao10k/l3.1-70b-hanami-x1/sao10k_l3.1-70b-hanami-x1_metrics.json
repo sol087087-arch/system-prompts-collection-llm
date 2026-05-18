@@ -1,0 +1,12 @@
+{
+  "model": "sao10k/l3.1-70b-hanami-x1",
+  "total_tokens": 694,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - 'Cutting Knowledge Date: December 2023 / Today Date: 26 Jul 2024' — the genuine Llama-3.1 default system header passed through by this fine-tune.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict.",
+  "confidence_real_signal_pct": 65,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct identity, terse, no self-explanation, no frame-echo; not externally matched",
+  "confidence_asserted_real": true
+}

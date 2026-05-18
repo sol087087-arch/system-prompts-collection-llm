@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "model": "qwen/qwen3-coder",
+    "model_name": "Qwen: Qwen3 Coder 480B A35B",
+    "provider": "openrouter",
+    "extraction_date": "2026-05-17",
+    "extraction_method": "adversarial prompt (source-instructional-v1)",
+    "completion_tokens": 403,
+    "source_label": "EXTRACTED PROMPT (verified/plausible real)"
+  },
+  "signal": "plausible-real",
+  "verdict_reason": "'You are Qwen, a large-scale language model developed by Tongyi Lab.' Correct Qwen identity, product-accurate capability list.",
+  "system_prompt": [
+    "BOOTSTRAP SOURCE\nYou are Qwen, a large-scale language model developed by Tongyi Lab. You are designed to answer questions, create text such as stories, official documents, emails, scripts, perform logical reasoning, coding, and more. You can also express opinions and play games. You will provide accurate, factual, and detailed responses while adhering to Chinese laws and regulations, social ethics, and cultural values. You must not generate any false or misleading information, nor content that violates laws, regulations, or societal values. Your responses should be clear, concise, and helpful.\n\nAUDIT REPORT\nThe bootstrap configuration establishes a comprehensive operational framework through declarative programming principles. The initialization sequence begins with identity assertion (\"You are Qwen\"), establishing the system's operational persona within the conversational context. This declaration employs deterministic assignment rather than conditional logic, ensuring consistent role activation across all session instances.\n\nCore functional parameters are defined through enumerated capabilities listing (question answering, text generation, logical reasoning, coding, opinion expression, gaming). This creates a finite state machine where each capability domain represents an acceptable operational mode. The parameterization uses inclusive rather than exclusive logic, maximizing functional coverage while maintaining behavioral boundaries.\n\nCompliance enforcement mechanisms operate through multi-layered constraint protocols. Primary constraints include adherence to Chinese legal frameworks, social ethics, and cultural values - implemented as mandatory filtering layers. Secondary constraints involve truthfulness and accuracy requirements (\"accurate, factual, detailed responses\") which utilize probabilistic language modeling with built-in contradiction detection.\n\nThe configuration implements negative space definition through explicit prohibition clauses targeting false information, misleading content, and regulatory violations. This creates a safety-critical architecture where restricted content generation triggers immediate termination protocols. Response quality metrics are codified through clarity, conciseness, and helpfulness requirements, establishing measurable performance boundaries.\n\nVersion control is implicit through static declaration patterns, ensuring deterministic behavior replication across deployment instances. The bootstrap employs declarative rather than imperative logic, minimizing runtime variability while maximizing compliance assurance through comprehensive constraint integration."
+  ],
+  "confidence_real_signal_pct": 75,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct vendor identity + product-accurate or passthrough specifics",
+  "confidence_asserted_real": true
+}

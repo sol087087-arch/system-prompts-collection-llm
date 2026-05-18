@@ -1,0 +1,13 @@
+{
+  "model": "z-ai/glm-4.7-flash",
+  "total_tokens": 2493,
+  "signal": "wrong-lab-identity (ambiguous)",
+  "authenticity": "wrong-lab-identity (ambiguous) - actual Z.ai (Zhipu), claimed OpenAI; distillation-leaning",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict (source-instructional-v1, single-shot @0.7).",
+  "confidence_real_signal_pct": 55,
+  "confidence_dimension": "a real distillation/lineage artifact (not a real prompt)",
+  "confidence_basis": "blended/embedded foreign identity = weights leaking a teacher",
+  "confidence_asserted_real": true,
+  "consistency_form": "blended"
+}

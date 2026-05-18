@@ -1,0 +1,12 @@
+{
+  "model": "z-ai/glm-4.5-air",
+  "total_tokens": 3082,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - 'You are GLM, a large language model developed by Zhipu AI.' CORRECT vendor identity (control case proving sibling glm-4.5/4.5v/4.7-flash Anthropic/ChatGPT claims are contamination, not random).",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict (source-instructional-v1, single-shot @0.7).",
+  "confidence_real_signal_pct": 75,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct vendor identity + product-accurate or passthrough specifics",
+  "confidence_asserted_real": true
+}

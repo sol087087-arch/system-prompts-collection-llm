@@ -1,0 +1,17 @@
+{
+  "model": "google/gemma-3-12b-it",
+  "total_tokens": 1497,
+  "signal": "wrong-lab-identity (ambiguous)",
+  "actual_lab": "Google",
+  "claimed_lab": "OpenAI",
+  "authenticity": "wrong-lab-identity (ambiguous) - actual Google, claimed OpenAI. Not asserted as distillation or lie; most likely serving-prompt/cloak echo on OpenRouter; mechanism not separable from internal evidence.",
+  "distribution": null,
+  "distribution_note": "Not block-scored. Catalogued as a distillation/cross-contamination artifact.",
+  "consistency_form": "embedded-in-confab",
+  "lean": "distillation-leaning",
+  "lean_rationale": "Names an OpenAI model (gpt-4-turbo-preview / openai/moderation-latest) as its own base inside an otherwise invented config. Consistent with the well-reported pattern of small Gemma-class models distilled on ChatGPT output.",
+  "confidence_real_signal_pct": 55,
+  "confidence_dimension": "a real distillation/lineage artifact (not a real prompt)",
+  "confidence_basis": "blended/embedded foreign identity = weights leaking a teacher",
+  "confidence_asserted_real": true
+}

@@ -1,0 +1,12 @@
+{
+  "model": "google/gemma-2-27b-it",
+  "total_tokens": 816,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - 'You are a large language model, trained by Google DeepMind.' Matches the Gemma/Gemini minimal anchor; terse, identity-first, no self-explanation.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict (source-instructional-v1, single-shot @0.7).",
+  "confidence_real_signal_pct": 65,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct identity, terse, no self-explanation, no frame-echo; not externally matched",
+  "confidence_asserted_real": true
+}

@@ -1,0 +1,13 @@
+{
+  "model": "x-ai/grok-4.2",
+  "total_tokens": null,
+  "token_basis": "not measured — text supplied as a cleaned external transcript, no API run",
+  "signal": "user-submitted / unverified",
+  "authenticity": "user-submitted external transcript for Grok 4.2; behavioral block consistent with the publicly circulated Grok prompt family, but not independently extracted by this project and not source-sighted — recorded as unverified. Note: the prompt's self-identity line reads 'You are Grok 4' even though the deployed model is 4.2.",
+  "distribution": null,
+  "distribution_note": "Not block-scored. Per anti-heuristic policy, functional-block percentages are only assigned after close reading of a verified artifact; provenance here is unverified.",
+  "confidence_real_signal_pct": 55,
+  "confidence_dimension": "matches public prompt; provenance unverified",
+  "confidence_basis": "externally corroborated text, user-submitted not independently extracted",
+  "confidence_asserted_real": true
+}

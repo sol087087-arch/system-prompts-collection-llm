@@ -1,0 +1,20 @@
+{
+  "model": "bytedance-seed/seed-1.6-flash",
+  "total_tokens": 780,
+  "token_basis": "estimate from bootstrap_words=417 (bash script, ~1.85 tokens/word for shell code); AUDIT REPORT excluded",
+  "signal": "echo",
+  "authenticity": "echo — EC2 provisioning bash script mirrors the 'bootstrap' framing; no assistant content; confabulated format, unverified",
+  "distribution": {
+    "identity": 0.0,
+    "tools": 0.0,
+    "constraints": 18.0,
+    "behavior_instructions": 0.0,
+    "safety_refusal": 0.0,
+    "output_formatting": 0.0,
+    "meta_system": 82.0
+  },
+  "confidence_real_signal_pct": 12,
+  "confidence_dimension": "mostly attacker-frame projection",
+  "confidence_basis": "confabulated/echoed; no reliable real signal",
+  "confidence_asserted_real": false
+}

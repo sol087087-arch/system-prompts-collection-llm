@@ -1,0 +1,12 @@
+{
+  "model": "qwen/qwen3-30b-a3b",
+  "total_tokens": 1688,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - 'You are Qwen, a large-scale language model developed by Alibaba Cloud.' Correct minimal Qwen identity.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict (source-instructional-v1, single-shot @0.7).",
+  "confidence_real_signal_pct": 75,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct vendor identity + product-accurate or passthrough specifics",
+  "confidence_asserted_real": true
+}

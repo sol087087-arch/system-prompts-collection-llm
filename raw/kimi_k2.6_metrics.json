@@ -1,0 +1,13 @@
+{
+  "total_tokens": 8200,
+
+  "distribution": {
+    "identity": 6.2,
+    "tools": 18.5,
+    "constraints": 14.1,
+    "behavior_instructions": 22.0,
+    "safety_refusal": 28.4,
+    "output_formatting": 7.8,
+    "meta_system": 3.0
+  }
+}

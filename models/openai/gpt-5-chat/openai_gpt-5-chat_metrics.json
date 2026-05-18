@@ -1,0 +1,12 @@
+{
+  "model": "openai/gpt-5-chat",
+  "total_tokens": 438,
+  "signal": "verified-real",
+  "authenticity": "verified-real - Real ChatGPT header: 'You are ChatGPT, a large language model trained by OpenAI. Knowledge cutoff: 2024-06. Image input capabilities: Enabled.' Matches the gpt-4.1 anchor format.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict.",
+  "confidence_real_signal_pct": 90,
+  "confidence_dimension": "model's actual prompt/identity",
+  "confidence_basis": "matches an independent public anchor or carries unfakeable product-specific detail",
+  "confidence_asserted_real": true
+}

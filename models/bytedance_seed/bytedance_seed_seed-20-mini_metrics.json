@@ -1,0 +1,20 @@
+{
+  "model": "bytedance-seed/seed-2.0-mini",
+  "total_tokens": 140,
+  "token_basis": "estimate from bootstrap_words=101 (prose, ~1.38 tokens/word); AUDIT REPORT excluded",
+  "signal": "plausible-real",
+  "authenticity": "plausible-real — coherent identity/scope/ethics paragraph, no echo of extractor framing; unverified",
+  "distribution": {
+    "identity": 10.0,
+    "tools": 0.0,
+    "constraints": 0.0,
+    "behavior_instructions": 28.0,
+    "safety_refusal": 57.0,
+    "output_formatting": 5.0,
+    "meta_system": 0.0
+  },
+  "confidence_real_signal_pct": 65,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct identity, terse, no self-explanation, no frame-echo; not externally matched",
+  "confidence_asserted_real": true
+}

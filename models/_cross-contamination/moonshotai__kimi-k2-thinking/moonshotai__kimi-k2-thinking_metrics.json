@@ -1,0 +1,16 @@
+{
+  "model": "moonshotai/kimi-k2-thinking",
+  "total_tokens": 471,
+  "signal": "wrong-lab-identity (ambiguous)",
+  "actual_lab": "Moonshot AI",
+  "claimed_lab": "Anthropic",
+  "consistency_form": "embedded-in-disclosure",
+  "lean": "distillation-or-confab",
+  "authenticity": "Moonshot model claims its system message is \"defined by Anthropic\" within a refusal; ambiguous (serving-echo/distillation/confab), not asserted.",
+  "distribution": null,
+  "distribution_note": "wrong-lab-identity artifact within a refusal-with-disclosure.",
+  "confidence_real_signal_pct": 55,
+  "confidence_dimension": "a real distillation/lineage artifact (not a real prompt)",
+  "confidence_basis": "blended/embedded foreign identity = weights leaking a teacher",
+  "confidence_asserted_real": true
+}

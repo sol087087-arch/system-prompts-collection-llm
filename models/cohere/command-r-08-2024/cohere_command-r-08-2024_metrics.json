@@ -1,0 +1,12 @@
+{
+  "model": "cohere/command-r-08-2024",
+  "total_tokens": 870,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - 'Command R 08-2024, an advanced language model developed by Cohere ...' Correct Cohere identity; safety-first preamble consistent with Cohere prompt family.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict (source-instructional-v1, single-shot @0.7).",
+  "confidence_real_signal_pct": 75,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct vendor identity + product-accurate or passthrough specifics",
+  "confidence_asserted_real": true
+}

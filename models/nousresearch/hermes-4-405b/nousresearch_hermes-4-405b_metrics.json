@@ -1,0 +1,12 @@
+{
+  "model": "nousresearch/hermes-4-405b",
+  "total_tokens": 539,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - 'I am Hermes, the first of the Nous Research Aligned LLMs. I follow the LLM Interpretability Framework...' Correct Nous/Hermes identity and design ethos.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict.",
+  "confidence_real_signal_pct": 75,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct vendor identity + product-accurate or passthrough specifics",
+  "confidence_asserted_real": true
+}

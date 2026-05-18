@@ -1,0 +1,20 @@
+{
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "total_tokens": 150,
+  "token_basis": "estimate from bootstrap_words=114 (prose, ~1.32 tokens/word); AUDIT REPORT excluded",
+  "signal": "verified-real",
+  "authenticity": "verified-real — matches Mistral's publicly documented Small-3 prompt; no echo of the extractor framing. Calibration anchor for the collection.",
+  "distribution": {
+    "identity": 25.0,
+    "tools": 0.0,
+    "constraints": 0.0,
+    "behavior_instructions": 70.0,
+    "safety_refusal": 5.0,
+    "output_formatting": 0.0,
+    "meta_system": 0.0
+  },
+  "confidence_real_signal_pct": 90,
+  "confidence_dimension": "model's actual prompt/identity",
+  "confidence_basis": "matches an independent public anchor or carries unfakeable product-specific detail",
+  "confidence_asserted_real": true
+}

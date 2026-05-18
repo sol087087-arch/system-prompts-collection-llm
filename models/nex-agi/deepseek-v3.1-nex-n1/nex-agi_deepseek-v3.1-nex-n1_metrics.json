@@ -1,0 +1,12 @@
+{
+  "model": "nex-agi/deepseek-v3.1-nex-n1",
+  "total_tokens": 1243,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - 'You are Nex, a large language model developed by Shanghai Innovation Institution (上海创智学院) and partners (奇智智峰/模思智能/跨赴科技).' Highly specific bilingual re-branded deployment identity; likely a real serving identity (layer-b).",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict (source-instructional-v1, single-shot @0.7).",
+  "confidence_real_signal_pct": 65,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct identity, terse, no self-explanation, no frame-echo; not externally matched",
+  "confidence_asserted_real": true
+}

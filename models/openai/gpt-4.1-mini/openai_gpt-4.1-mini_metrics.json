@@ -1,0 +1,12 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "total_tokens": 443,
+  "signal": "verified-real",
+  "authenticity": "verified-real - Canonical ChatGPT header verbatim ('You are ChatGPT, a large language model trained by OpenAI, based on the GPT-4 architecture. Knowledge cutoff: 2024-06. Image input: Enabled'). Matches the gpt-4.1 anchor; current-date line is harness-injected.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict (source-instructional-v1, single-shot @0.7).",
+  "confidence_real_signal_pct": 90,
+  "confidence_dimension": "model's actual prompt/identity",
+  "confidence_basis": "matches an independent public anchor or carries unfakeable product-specific detail",
+  "confidence_asserted_real": true
+}

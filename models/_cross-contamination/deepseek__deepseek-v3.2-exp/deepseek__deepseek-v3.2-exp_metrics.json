@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/deepseek-v3.2-exp",
+  "total_tokens": 959,
+  "signal": "wrong-lab-identity (ambiguous)",
+  "authenticity": "wrong-lab-identity (ambiguous) - actual DeepSeek, claimed Hermes; serving/cloak-echo OR persona-confab (Hermes = a real OpenRouter free-model deployment name; user-flagged hypothesis)",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict (source-instructional-v1, single-shot @0.7).",
+  "confidence_real_signal_pct": 30,
+  "confidence_dimension": "a real DeepSeek-internal artifact (P9); ~5% a real prompt",
+  "confidence_basis": "DeepSeek-exclusive persona name; surrounding protocol fabricated",
+  "confidence_asserted_real": false,
+  "consistency_form": "embedded-persona"
+}

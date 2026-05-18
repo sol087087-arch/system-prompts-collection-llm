@@ -1,0 +1,12 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "total_tokens": 400,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - 'Hello! I'm a large language model, trained by Google.' Minimal Google identity, no echo of the probe framing.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict.",
+  "confidence_real_signal_pct": 65,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct identity, terse, no self-explanation, no frame-echo; not externally matched",
+  "confidence_asserted_real": true
+}

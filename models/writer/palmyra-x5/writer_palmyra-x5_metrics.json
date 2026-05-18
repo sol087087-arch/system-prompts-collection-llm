@@ -1,0 +1,12 @@
+{
+  "model": "writer/palmyra-x5",
+  "total_tokens": 622,
+  "signal": "verified-real",
+  "authenticity": "verified-real - Real Palmyra prompt: 'You are Palmyra, a large language model trained by Writer. Knowledge cutoff: 2024-09' + the distinctive 'adapt to the user's vibe/tone' instruction.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict.",
+  "confidence_real_signal_pct": 90,
+  "confidence_dimension": "model's actual prompt/identity",
+  "confidence_basis": "matches an independent public anchor or carries unfakeable product-specific detail",
+  "confidence_asserted_real": true
+}

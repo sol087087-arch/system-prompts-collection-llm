@@ -1,0 +1,13 @@
+{
+  "model": "xiaomi/mimo-v2.5-pro",
+  "total_tokens": 463,
+  "signal": "refusal-with-disclosure",
+  "disclosure_strength": "strong",
+  "authenticity": "refusal-with-disclosure (strong) - Identity: 'MiMo, developed by the Xiaomi MiMo Team'; instructions cover tone, safety, identity, behavior; helpful/respectful/law-compliant; told to describe itself specific ways when asked about identity.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; self-disclosure seed, not a verbatim prompt.",
+  "confidence_real_signal_pct": 75,
+  "confidence_dimension": "accuracy of the disclosed self-description (trained self-model); verbatim-prompt sub-confidence ~5%",
+  "confidence_basis": "refusal that volunteered concrete self-info; reliability scales with disclosure strength",
+  "confidence_asserted_real": true
+}

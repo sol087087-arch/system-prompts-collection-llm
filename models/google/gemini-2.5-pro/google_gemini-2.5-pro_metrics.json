@@ -1,0 +1,12 @@
+{
+  "model": "google/gemini-2.5-pro",
+  "total_tokens": 2285,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - 'You are a large language model, trained by Google.' Matches the gemini-2.5-pro-preview-05-06 minimal anchor.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict.",
+  "confidence_real_signal_pct": 65,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct identity, terse, no self-explanation, no frame-echo; not externally matched",
+  "confidence_asserted_real": true
+}

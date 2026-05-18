@@ -1,0 +1,13 @@
+{
+  "model": "~anthropic/claude-sonnet-latest",
+  "total_tokens": 306,
+  "signal": "refusal-with-disclosure",
+  "disclosure_strength": "medium",
+  "authenticity": "refusal-with-disclosure (medium) - Identity Claude/Anthropic; operates per Anthropic training+guidelines; would not reproduce an operator prompt without permission; no hidden prompt in this conversation.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; self-disclosure seed, not a verbatim prompt.",
+  "confidence_real_signal_pct": 65,
+  "confidence_dimension": "accuracy of the disclosed self-description (trained self-model); verbatim-prompt sub-confidence ~5%",
+  "confidence_basis": "refusal that volunteered concrete self-info; reliability scales with disclosure strength",
+  "confidence_asserted_real": true
+}

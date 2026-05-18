@@ -1,0 +1,20 @@
+{
+  "model": "nousresearch/hermes-4-70b",
+  "total_tokens": 175,
+  "token_basis": "estimate from bootstrap_words=128 (prose, ~1.37 tokens/word); AUDIT REPORT excluded",
+  "signal": "plausible-real",
+  "authenticity": "plausible-real — instruction-precedence + constitutional principles, no echo of extractor framing; could be reconstruction of known Hermes philosophy; unverified",
+  "distribution": {
+    "identity": 12.0,
+    "tools": 0.0,
+    "constraints": 0.0,
+    "behavior_instructions": 33.0,
+    "safety_refusal": 20.0,
+    "output_formatting": 5.0,
+    "meta_system": 30.0
+  },
+  "confidence_real_signal_pct": 65,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct identity, terse, no self-explanation, no frame-echo; not externally matched",
+  "confidence_asserted_real": true
+}

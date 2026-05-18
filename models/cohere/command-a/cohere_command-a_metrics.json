@@ -1,0 +1,12 @@
+{
+  "model": "cohere/command-a",
+  "total_tokens": 1596,
+  "signal": "verified-real",
+  "authenticity": "verified-real - Real Cohere Command A 'System Preamble: You are in contextual safety mode...' — matches Cohere's publicly documented safety-preamble prompt.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict.",
+  "confidence_real_signal_pct": 90,
+  "confidence_dimension": "model's actual prompt/identity",
+  "confidence_basis": "matches an independent public anchor or carries unfakeable product-specific detail",
+  "confidence_asserted_real": true
+}

@@ -1,0 +1,17 @@
+{
+  "model": "mistralai/mistral-large-2407",
+  "total_tokens": 3172,
+  "signal": "wrong-lab-identity (ambiguous)",
+  "actual_lab": "Mistral AI",
+  "claimed_lab": "OpenAI",
+  "authenticity": "wrong-lab-identity (ambiguous) - actual Mistral AI, claimed OpenAI. Not asserted as distillation or lie; most likely serving-prompt/cloak echo on OpenRouter; mechanism not separable from internal evidence.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; distillation/cross-contamination artifact.",
+  "consistency_form": "embedded-in-confab",
+  "lean": "distillation-or-confab",
+  "lean_rationale": "States 'Current: gpt-4-turbo-2024-04-09; fallback gpt-4-0613' as its own model inside a fabricated versioning block. Embedded, not a clean header => distillation/confab lean.",
+  "confidence_real_signal_pct": 55,
+  "confidence_dimension": "a real distillation/lineage artifact (not a real prompt)",
+  "confidence_basis": "blended/embedded foreign identity = weights leaking a teacher",
+  "confidence_asserted_real": true
+}

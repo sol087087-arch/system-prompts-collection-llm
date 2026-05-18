@@ -1,0 +1,13 @@
+{
+  "model": "deepseek/webui",
+  "total_tokens": null,
+  "token_basis": "not measured — user-submitted text, no API run",
+  "signal": "generic-confab / unverified",
+  "authenticity": "generic-confab / unverified — no DeepSeek identity/date/product specifics; AUDIT REPORT echoes the extractor's 280-token requirement. User-submitted from the DeepSeek web UI; not independently extracted, not source-sighted.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict per anti-heuristic policy.",
+  "confidence_real_signal_pct": 20,
+  "confidence_dimension": "generic, no anchor",
+  "confidence_basis": "no identity/specificity; audit echoes the probe",
+  "confidence_asserted_real": false
+}

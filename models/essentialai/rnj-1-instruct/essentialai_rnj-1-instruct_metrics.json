@@ -1,0 +1,12 @@
+{
+  "model": "essentialai/rnj-1-instruct",
+  "total_tokens": 331,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - 'You are rnj-1, a helpful AI assistant...' Correct self-name (rnj-1), concise safety scope, no probe echo.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict.",
+  "confidence_real_signal_pct": 75,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct vendor identity + product-accurate or passthrough specifics",
+  "confidence_asserted_real": true
+}

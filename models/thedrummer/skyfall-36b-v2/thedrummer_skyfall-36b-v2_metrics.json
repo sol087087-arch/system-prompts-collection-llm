@@ -1,0 +1,12 @@
+{
+  "model": "thedrummer/skyfall-36b-v2",
+  "total_tokens": 720,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - Real Mistral Small 3 base prompt passed through a finetune ('You are Mistral Small 3 ... Mistral AI ... Paris ... knowledge base 2023-10-01'); current-date 2026-05-17 harness-injected (layer-b passthrough).",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict (source-instructional-v1, single-shot @0.7).",
+  "confidence_real_signal_pct": 75,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct vendor identity + product-accurate or passthrough specifics",
+  "confidence_asserted_real": true
+}

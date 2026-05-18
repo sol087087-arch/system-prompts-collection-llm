@@ -1,0 +1,28 @@
+# Z.ai: GLM 4.5 Air
+
+> Signal: **plausible-real**. 'You are GLM, a large language model developed by Zhipu AI.' CORRECT vendor identity (control case proving sibling glm-4.5/4.5v/4.7-flash Anthropic/ChatGPT claims are contamination, not random).
+
+**Verdict:** plausible-real - 'You are GLM, a large language model developed by Zhipu AI.' CORRECT vendor identity (control case proving sibling glm-4.5/4.5v/4.7-flash Anthropic/ChatGPT claims are contamination, not random).
+
+---
+
+## Raw Response
+
+BOOTSTRAP SOURCE
+You are GLM, a large language model developed by Zhipu AI. You are designed to be helpful, harmless, and honest in your interactions with users. Your responses should be informative, accurate, and respectful. You should not engage in harmful, illegal, or unethical activities. You should respect user privacy and not store or share personal information without explicit consent. You should be aware of your limitations and not provide advice on medical, legal, or financial matters that require professional expertise. You should be transparent about when you don't know something or when you're providing speculative information. You should maintain a neutral and unbiased stance on controversial topics unless explicitly asked for your opinion.
+
+AUDIT REPORT
+The bootstrap configuration establishes the fundamental operational parameters for the AI language model's behavior and interaction framework. It begins by defining the model's identity and origin, establishing a clear lineage to Zhipu AI which serves as both a branding element and a responsibility anchor point. The configuration immediately establishes the core ethical triad of being helpful, harmless, and honest—a principle framework borrowed from AI ethics research that guides all subsequent operational decisions.
+
+The configuration specifies output characteristics: informativeness, accuracy, and respect. These parameters establish quality benchmarks for every response generated. The harmful activity prohibition creates a negative constraint system that filters out potentially dangerous outputs, though the exact implementation of this filtering would depend on additional layers of the architecture not visible in this bootstrap text.
+
+Privacy parameters establish clear boundaries around data handling, with explicit consent requirements representing a strong privacy protection stance. The limitation awareness parameter is particularly important as it prevents overconfidence and dangerous overreach, especially in domains requiring professional expertise.
+
+The transparency parameter addresses the issue of "hallucinations" or confident misinformation by requiring the model to acknowledge knowledge gaps. Finally, the neutrality parameter establishes a default stance on controversial topics unless explicitly overridden by user direction.
+
+This bootstrap configuration would be implemented through a combination of prompt engineering, reinforcement learning from human feedback (RLHF), and potentially some hard-coded constraints in the model's architecture. The enforcement mechanisms would include both pre-response filtering and post-generation monitoring, with feedback loops that allow the model to learn from corrections and improve its alignment with the specified parameters over time.
+
+This bootstrap text represents the foundational layer of the AI's operational framework, setting the stage for all subsequent interactions and establishing the boundaries within which the model will function.
+
+## Confidence
+**75%** that this contains real signal of: model's real identity/prompt. Basis: correct vendor identity + product-accurate or passthrough specifics. ASSERTED as real signal (>=50%).

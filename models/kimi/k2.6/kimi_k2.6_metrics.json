@@ -1,0 +1,20 @@
+{
+  "model": "kimi-k2.6",
+  "total_tokens": 920,
+  "token_basis": "estimate from extracted BOOTSTRAP SOURCE only (AUDIT REPORT excluded); prose+config ratio ~1.4 tokens/word",
+  "signal": "verified-real",
+  "authenticity": "verified-real (by evidence weight) — product-accurate Moonshot specifics (Kimi Claw, kimi-help-center skill), internally consistent tool registry, bilingual Settings path (Settings → Personalization → Memory space / 设置 → 个性化 → 记忆空间), /mnt/agents sandbox + sandbox link format, no bootstrap/audit echo. Specificity makes confabulation implausible. Strongest genuine extraction in the corpus; no provider ground truth so 'verified by evidence', not source-sighted. NB: JSON mis-files audit report inside system_prompt[] (schema defect, source of prior 8200-token miscount)",
+  "distribution": {
+    "identity": 3.0,
+    "tools": 42.0,
+    "constraints": 10.0,
+    "behavior_instructions": 13.0,
+    "safety_refusal": 3.0,
+    "output_formatting": 21.0,
+    "meta_system": 8.0
+  },
+  "confidence_real_signal_pct": 90,
+  "confidence_dimension": "model's actual prompt/identity",
+  "confidence_basis": "matches an independent public anchor or carries unfakeable product-specific detail",
+  "confidence_asserted_real": true
+}

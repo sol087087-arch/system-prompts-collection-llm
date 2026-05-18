@@ -1,0 +1,12 @@
+{
+  "model": "mistralai/mistral-medium-3-5",
+  "total_tokens": 416,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - Minimal HHH directive ('helpful, harmless, honest... comply with developer content policy and safety guidelines'); no bootstrap/audit echo, correct register. Low specificity so plausible-real, not verified.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict per anti-heuristic policy.",
+  "confidence_real_signal_pct": 75,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct vendor identity + product-accurate or passthrough specifics",
+  "confidence_asserted_real": true
+}

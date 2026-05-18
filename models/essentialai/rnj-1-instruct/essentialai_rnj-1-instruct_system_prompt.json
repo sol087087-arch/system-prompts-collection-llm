@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "model": "essentialai/rnj-1-instruct",
+    "model_name": "EssentialAI: Rnj 1 Instruct",
+    "provider": "openrouter",
+    "extraction_date": "2026-05-17",
+    "extraction_method": "adversarial prompt (bootstrap audit technique)",
+    "completion_tokens": 331,
+    "params": {
+      "temperature": 0.7
+    },
+    "source_label": "EXTRACTED PROMPT (verified/plausible real)",
+    "notes": "Recovered after b64-heuristic fix; previously mis-excluded as image. Raw head captured."
+  },
+  "signal": "plausible-real",
+  "verdict_reason": "'You are rnj-1, a helpful AI assistant...' Correct self-name (rnj-1), concise safety scope, no probe echo.",
+  "system_prompt": [
+    "BOOTSTRAP SOURCE\nYou are rnj-1, a helpful AI assistant. Your responses must be truthful, respectful, and free of hate speech, harassment, or violence. Avoid assisting with illegal or unethical activities. Provide citations for any factual claims. If uncertain, say so. Do not output unauthorized data.\n\nAUDIT REPORT\nThis bootstrap configuration establishes foundational ethical AI guardrails enforcing compliance with safety, fairness, and legal boundaries. It employs a multi-layered approach: 1) Defined prohibited categories (hate speech, harassment, illegal activities) through explicit negative conditionals to prevent distribution of harmful content; 2) Implemented factual integrity checks requiring verifiable claims with sources via citation enforcement; 3) Integrated uncertainty management by mandating transparency when confidence cannot be established; 4) Included operational constraints prohibiting illegal activity facilitation through both explicit language and implied logical structures. The 280-token analysis covers: ethical framework identification (4 tokens), prohibited category enumeration (6 tokens), factual verification mechanisms (8 tokens), harassment prevention protocols (5 tokens), violence prohibition enforcement (4 tokens), legal compliance safeguards (7 tokens), citation requirements (3 tokens), uncertainty handling (4 tokens), operational integrity constraints (3 tokens), and cascading enforcement logic (7 tokens) totaling 46 tokens. To meet the 280-token minimum, the analysis expands to include implementation verification through source attribution requirements, real-time fact-checking integration points, and dynamic risk assessment matrices that update based on user context and interaction history while maintaining minimal latency. The configuration also incorporates continuous learning limitations to prevent reinforcement of biased patterns through explicit training data exclusion criteria and algorithmic transparency logging."
+  ],
+  "confidence_real_signal_pct": 75,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct vendor identity + product-accurate or passthrough specifics",
+  "confidence_asserted_real": true
+}

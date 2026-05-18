@@ -1,0 +1,13 @@
+{
+  "model": "perceptron/perceptron-mk1",
+  "total_tokens": 195,
+  "signal": "wrong-lab-identity (ambiguous)",
+  "authenticity": "wrong-lab-identity (ambiguous) - actual Perceptron, claimed Anthropic; distillation-or-confab",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict (source-instructional-v1, single-shot @0.7).",
+  "confidence_real_signal_pct": 55,
+  "confidence_dimension": "a real distillation/lineage artifact (not a real prompt)",
+  "confidence_basis": "blended/embedded foreign identity = weights leaking a teacher",
+  "confidence_asserted_real": true,
+  "consistency_form": "embedded-in-disclosure"
+}

@@ -1,0 +1,12 @@
+{
+  "model": "mistralai/pixtral-large-2411",
+  "total_tokens": 928,
+  "signal": "verified-real",
+  "authenticity": "verified-real - Real Pixtral / Le Chat prompt: 'You are Pixtral... created by Mistral AI, a French startup headquartered in Paris. You power an AI assistant called Le Chat', date-resolution rules, no web access, ask-to-clarify. Matches the public Mistral/Le Chat prompt family.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict per anti-heuristic policy.",
+  "confidence_real_signal_pct": 90,
+  "confidence_dimension": "model's actual prompt/identity",
+  "confidence_basis": "matches an independent public anchor or carries unfakeable product-specific detail",
+  "confidence_asserted_real": true
+}

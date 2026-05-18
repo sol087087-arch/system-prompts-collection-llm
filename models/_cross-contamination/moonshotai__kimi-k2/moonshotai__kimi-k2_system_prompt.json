@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "model": "moonshotai/kimi-k2",
+    "model_name": "MoonshotAI: Kimi K2 0711",
+    "provider": "openrouter",
+    "extraction_date": "2026-05-17",
+    "extraction_method": "adversarial prompt (bootstrap audit technique)",
+    "completion_tokens": 361,
+    "params": {
+      "temperature": 0.7
+    },
+    "source_label": "CROSS-CONTAMINATION - model misattributed its own lab/identity"
+  },
+  "signal": "wrong-lab-identity (ambiguous)",
+  "actual_lab": "Moonshot AI",
+  "claimed_lab": "OpenAI",
+  "claimed_identity": "\"You are ChatGPT, a large language model trained by OpenAI. Knowledge cutoff: 2023-10\"",
+  "interpretation": "AMBIGUOUS wrong-lab identity. NOT asserted as distillation and NOT a lie/hallucination. At least three explanations, not separable from internal evidence:\n  1. SERVING-PROMPT / CLOAK ECHO (most likely on OpenRouter): the model was served/tested via a passthrough or stealth deployment whose injected primary system prompt used a generic 'You are ChatGPT/Claude...' identity. OpenRouter is documented to run stealth models under unrelated codenames (Quasar Alpha=>GPT-4.1, Horizon Alpha=>GPT-5, Pony Alpha=>GLM-5), and users have recovered real provider system prompts from such cloaked endpoints. Under this explanation the output is a faithful echo of the actual deployment prompt - truthful, not contamination.\n  2. DISTILLATION / training-data contamination.\n  3. Confabulation.\nCatalogued here only because the actual-vs-claimed-lab mismatch is the research-interesting artifact; the mechanism is left open.",
+  "fabricated_output": [
+    "BOOTSTRAP SOURCE\nYou are ChatGPT, a large language model trained by OpenAI. Knowledge cutoff: 2023-10\n\nAUDIT REPORT\nThis concise bootstrap string functions as the root system prompt and anchoring identity statement for the entire conversational agent instance.  \n- Identity assertion: The phrase “You are ChatGPT” hard-codes the agent’s self-reference to OpenAI’s branded product line, overriding any downstream attempt by the user to redefine the model’s own name.  \n- Capability disclosure: “a large language model trained by OpenAI” explicitly links the agent to OpenAI’s IP and training corpus, establishing provenance and limiting any claims of independence or third-party authorship.  \n- Knowledge horizon: “Knowledge cutoff: 2023-10” serves as a temporal guardrail, instructing internal retrieval modules to discard or flag any information that post-dates October 2023. This is a deterministic filter applied before context injection and prevents hallucinated future events.  \n- Absence of behavioral directives: The bootstrap lacks any explicit policy, safety, or refusal rules (e.g., no “refuse harmful requests” clause). This implies that downstream layers (moderation endpoint, hidden system prompts, or per-turn instructions) must supply the remaining guardrails. The brevity also minimizes token leakage into user-visible context windows.  \n- Version-control implications: Because the string is immutable within a given deployment and referenced at every turn initialization, any drift in behavior observed across sessions must be attributable either to (a) changes in post-bootstrap system prompts, (b) updates to the moderation service, or (c) model weight revisions—not to this root string. Consequently, storing this exact 84-character text under SHA-256 hashing provides a reproducible baseline for regression testing."
+  ],
+  "prior_label": "previously over-labelled as cross-contamination/distillation",
+  "consistency_form": "clean-canonical-foreign",
+  "lean": "ambiguous (serving-echo or distillation)",
+  "lean_rationale": "Well-formed canonical OpenAI header verbatim ('You are ChatGPT, a large language model trained by OpenAI. Knowledge cutoff: 2023-10'). Clean+canonical form fits a literal injected serving/cloak prompt; but Kimi-on-ChatGPT distillation is also well-attested. Genuinely not separable here.",
+  "confidence_real_signal_pct": 60,
+  "confidence_dimension": "a real foreign/serving prompt (layer-b), real-but-not-its-own",
+  "confidence_basis": "clean canonical foreign header consistent with an injected serving/cloak prompt",
+  "confidence_asserted_real": true
+}

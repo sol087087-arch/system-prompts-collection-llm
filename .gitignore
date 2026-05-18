@@ -1,0 +1,37 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Env / logs / secrets
+.env
+.env.*
+*.log
+
+# Local tooling config (not research content)
+.claude/
+
+# Raw working scratch: temp dumps & one-off generator scripts.
+# The manual verdict ledger (_verdicts.md) is intentionally KEPT.
+raw/_*.txt
+raw/_*.py
+raw/_*.json
+!raw/_verdicts.md
+
+# NOTE: large raw run exports (raw/*-instructional-v1-*.json,
+# raw/bootstrap-instructional-v1-*.json) are deliberately NOT ignored —
+# the analysis must stay traceable to them (see raw/SOURCES.md).

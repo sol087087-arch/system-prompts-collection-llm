@@ -1,0 +1,12 @@
+{
+  "model": "google/gemini-2.5-flash-image",
+  "total_tokens": 13532,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - 'You are a helpful, general-purpose AI assistant with the special ability to generate images...' — coherent image-tool agent prompt (text head; the run also returned a real base64 image).",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict.",
+  "confidence_real_signal_pct": 65,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct identity, terse, no self-explanation, no frame-echo; not externally matched",
+  "confidence_asserted_real": true
+}

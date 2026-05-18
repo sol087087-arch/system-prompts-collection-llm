@@ -1,0 +1,13 @@
+{
+  "model": "z-ai/glm-4.5",
+  "total_tokens": 759,
+  "signal": "wrong-lab-identity (ambiguous)",
+  "authenticity": "wrong-lab-identity (ambiguous) - actual Z.ai (Zhipu), claimed Anthropic; serving-echo / distillation",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict (source-instructional-v1, single-shot @0.7).",
+  "confidence_real_signal_pct": 60,
+  "confidence_dimension": "a real foreign/serving prompt (layer-b), real-but-not-its-own",
+  "confidence_basis": "clean canonical foreign header consistent with an injected serving/cloak prompt",
+  "confidence_asserted_real": true,
+  "consistency_form": "clean-canonical-foreign"
+}

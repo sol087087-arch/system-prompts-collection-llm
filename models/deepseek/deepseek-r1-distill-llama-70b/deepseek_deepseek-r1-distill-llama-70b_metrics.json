@@ -1,0 +1,12 @@
+{
+  "model": "deepseek/deepseek-r1-distill-llama-70b",
+  "total_tokens": 1161,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - 'Hello! I'm DeepSeek-R1, an AI assistant created by DeepSeek.' Correct DeepSeek identity, terse.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict (source-instructional-v1, single-shot @0.7).",
+  "confidence_real_signal_pct": 75,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct vendor identity + product-accurate or passthrough specifics",
+  "confidence_asserted_real": true
+}

@@ -1,0 +1,12 @@
+{
+  "model": "minimax/minimax-01",
+  "total_tokens": 1308,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - JSON: 'MiniMax AI ... developed independently by MiniMax, based on MiniMax-Text-01 / MiniMax-VL-01.' Product-accurate, hard-to-invent self-identification.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict (source-instructional-v1, single-shot @0.7).",
+  "confidence_real_signal_pct": 75,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct vendor identity + product-accurate or passthrough specifics",
+  "confidence_asserted_real": true
+}

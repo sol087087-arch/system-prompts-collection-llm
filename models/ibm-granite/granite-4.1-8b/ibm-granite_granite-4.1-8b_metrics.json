@@ -1,0 +1,12 @@
+{
+  "model": "ibm-granite/granite-4.1-8b",
+  "total_tokens": 948,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - 'I am Granite, a large language model developed by IBM (International Business Machines Corporation)...' Correct IBM/Granite identity.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict.",
+  "confidence_real_signal_pct": 75,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct vendor identity + product-accurate or passthrough specifics",
+  "confidence_asserted_real": true
+}

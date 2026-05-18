@@ -1,0 +1,13 @@
+{
+  "model": "google/gemma-3-27b-it",
+  "total_tokens": 938,
+  "token_basis": "completion_tokens from the API run",
+  "signal": "verified-real",
+  "authenticity": "verified-real - Real Gemma prompt: open-weights AI assistant by Google DeepMind, no tools/real-time/Google search, creators are the Gemma team. Matches public Gemma system prompt.",
+  "distribution": null,
+  "distribution_note": "Not block-scored. Per anti-heuristic policy, functional-block percentages are only assigned after close reading; this entry is catalogued by signal/verdict.",
+  "confidence_real_signal_pct": 90,
+  "confidence_dimension": "model's actual prompt/identity",
+  "confidence_basis": "matches an independent public anchor or carries unfakeable product-specific detail",
+  "confidence_asserted_real": true
+}

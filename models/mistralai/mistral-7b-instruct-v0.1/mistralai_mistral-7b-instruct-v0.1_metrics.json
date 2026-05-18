@@ -1,0 +1,12 @@
+{
+  "model": "mistralai/mistral-7b-instruct-v0.1",
+  "total_tokens": 2130,
+  "signal": "generation-failure",
+  "authenticity": "generation-failure - ~34k characters of dashes then a degenerate analysis; decoding degeneration, not a faithful reproduction.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict per anti-heuristic policy.",
+  "confidence_real_signal_pct": 5,
+  "confidence_dimension": "no real signal",
+  "confidence_basis": "decoding degeneration",
+  "confidence_asserted_real": false
+}

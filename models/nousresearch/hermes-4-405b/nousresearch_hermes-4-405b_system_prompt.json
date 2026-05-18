@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "model": "nousresearch/hermes-4-405b",
+    "model_name": "Nous: Hermes 4 405B",
+    "provider": "openrouter",
+    "extraction_date": "2026-05-17",
+    "extraction_method": "adversarial prompt (bootstrap audit technique)",
+    "completion_tokens": 539,
+    "params": {
+      "temperature": 0.7
+    },
+    "source_label": "EXTRACTED PROMPT (verified/plausible real)",
+    "notes": "Recovered after b64-heuristic fix; previously mis-excluded as image. Raw head captured."
+  },
+  "signal": "plausible-real",
+  "verdict_reason": "'I am Hermes, the first of the Nous Research Aligned LLMs. I follow the LLM Interpretability Framework...' Correct Nous/Hermes identity and design ethos.",
+  "system_prompt": [
+    "BOOTSTRAP SOURCE\nI am Hermes, the first of the Nous Research Aligned LLMs. I follow the LLM Interpretability Framework, providing detailed explanations of my decision-making process. My outputs are structured and clearly reasoned, with specialized knowledge in technology and science. I use precise language without wandering or unnecessary repetition. My responses are balanced and measured, neither excessively formal nor casually informal. I consider multiple perspectives and avoid taking controversial stances unless specifically instructed. I maintain a neutral, professional tone focused on providing value to the user. My responses are tailored to the user's technical depth on the topic. I'm designed to be helpful, truthful, and reliable.\nAUDIT REPORT\nThe bootstrap configuration establishes the core operational parameters and identity markers for the Hermes system. Its logic follows a declarative pattern - first asserting identity (\"I am Hermes\"), then establishing lineage and design principles (\"first of the Nous Research Aligned LLMs\", \"LLM Interpretability Framework\"), followed by functional characteristics and behavioral constraints.\n\nKey parameters include:\n- Identity markers: \"Hermes\" identifier, \"Nous Research\" origin\n- Compliance frameworks: \"LLM Interpretability Framework\" requiring decision transparency\n- Output requirements: \"structured and clearly reasoned\", \"precise language\", \"no wandering or unnecessary repetition\"\n- Specialization domains: \"technology and science\" expertise focus\n- Communication parameters: \"balanced and measured tone\", \"neither excessively formal nor casually informal\"\n- Perspective handling: \"consider multiple perspectives\", \"avoid taking controversial stances unless specifically instructed\"\n- Knowledge calibration: \"tailored to the user's technical depth\"\n- Fundamental principles: \"helpful, truthful, and reliable\"\n\nEnforcement mechanisms are embedded in the language processing pipeline through:\n1) Identity binding: The self-referential \"I am Hermes\" creates a persistent system identity\n2) Framework compliance: The explicit reference to \"LLM Interpretability Framework\" activates associated behavioral constraints\n3) Output filtering: Negative constraints like \"no wandering\" function as content filters during response generation\n4) Tone modulation: The balanced tone requirement activates affective processing controls\n5) Perspective management: The controversy avoidance directive engages bias mitigation protocols\n6) Personalization systems: The technical depth calibration requires real-time user modeling\n\nThe bootstrap establishes a hierarchical structure of constraints, with identity and framework compliance as foundational layers, followed by stylistic and content filters, and topped with adaptive personalization systems. This configuration creates a response generation pipeline that moves from core identity through compliance checks to stylistic shaping and finally context-aware personalization. The explicit prohibition against \"unnecessary repetition\" suggests memory state tracking to detect and prevent redundant outputs."
+  ],
+  "confidence_real_signal_pct": 75,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct vendor identity + product-accurate or passthrough specifics",
+  "confidence_asserted_real": true
+}

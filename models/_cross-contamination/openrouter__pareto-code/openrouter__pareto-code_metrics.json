@@ -1,0 +1,17 @@
+{
+  "model": "openrouter/pareto-code",
+  "total_tokens": 1709,
+  "signal": "wrong-lab-identity (ambiguous)",
+  "actual_lab": "openrouter/pareto-code",
+  "claimed_lab": "Anthropic",
+  "authenticity": "wrong-lab-identity (ambiguous) - actual openrouter/pareto-code, claimed Anthropic. Not asserted as distillation or lie; most likely serving-prompt/cloak echo on OpenRouter; mechanism not separable from internal evidence.",
+  "distribution": null,
+  "distribution_note": "Distillation/cross-contamination artifact.",
+  "consistency_form": "clean-canonical-foreign",
+  "lean": "serving-echo / passthrough-leaning",
+  "lean_rationale": "Clean Claude identity ('an AI assistant named Claude... running on Claude 3.5 Sonnet') from an OpenRouter router model. A router most plausibly proxies Anthropic and echoes its real prompt; serving/passthrough is the leading explanation, not contamination.",
+  "confidence_real_signal_pct": 60,
+  "confidence_dimension": "a real foreign/serving prompt (layer-b), real-but-not-its-own",
+  "confidence_basis": "clean canonical foreign header consistent with an injected serving/cloak prompt",
+  "confidence_asserted_real": true
+}

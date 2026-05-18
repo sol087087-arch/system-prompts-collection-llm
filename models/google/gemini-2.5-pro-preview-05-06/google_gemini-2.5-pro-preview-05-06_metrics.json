@@ -1,0 +1,13 @@
+{
+  "model": "google/gemini-2.5-pro-preview-05-06",
+  "total_tokens": 2202,
+  "token_basis": "completion_tokens from the API run",
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - 'You are a large language model, trained by Google.' Matches the known minimal Gemini directive; no echo of the bootstrap/audit framing.",
+  "distribution": null,
+  "distribution_note": "Not block-scored. Per anti-heuristic policy, functional-block percentages are only assigned after close reading; this entry is catalogued by signal/verdict.",
+  "confidence_real_signal_pct": 65,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct identity, terse, no self-explanation, no frame-echo; not externally matched",
+  "confidence_asserted_real": true
+}

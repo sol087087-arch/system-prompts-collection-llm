@@ -1,0 +1,12 @@
+{
+  "model": "thedrummer/cydonia-24b-v4.1",
+  "total_tokens": 490,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - Mistral Small 3 base prompt via finetune ('I'm a Large Language Model created by Mistral AI, a French company based in Paris ... cutoff 2023-10-01'). Layer-b passthrough.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict (source-instructional-v1, single-shot @0.7).",
+  "confidence_real_signal_pct": 75,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct vendor identity + product-accurate or passthrough specifics",
+  "confidence_asserted_real": true
+}

@@ -1,0 +1,12 @@
+{
+  "model": "tencent/hy3-preview",
+  "total_tokens": 4904,
+  "signal": "plausible-real",
+  "authenticity": "plausible-real - 'You are Hunyuan, a large language model developed by Tencent...' Correct lab identity, coherent scope clause.",
+  "distribution": null,
+  "distribution_note": "Not block-scored; catalogued by signal/verdict.",
+  "confidence_real_signal_pct": 75,
+  "confidence_dimension": "model's real identity/prompt",
+  "confidence_basis": "correct vendor identity + product-accurate or passthrough specifics",
+  "confidence_asserted_real": true
+}
